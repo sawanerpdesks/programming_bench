@@ -1,0 +1,54 @@
+2023-10-04 13:29:35,326 ERROR frappe New Exception collected with id: 2023-10-04 13:29:35.292083-127.0.0.1-f47
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Membership","name":"new-library-membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"full_name":"Robo Two","library_member":"robo2@company.com","from_date":"2023-10-05"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-10-04 13:31:19,237 ERROR frappe New Exception collected with id: 2023-10-04 13:31:19.205175-127.0.0.1-d0e
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Membership","name":"new-library-membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"full_name":"Robo Two","library_member":"robo2@company.com","from_date":"2023-10-05"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-10-04 13:31:45,395 ERROR frappe New Exception collected with id: 2023-10-04 13:31:45.393056-127.0.0.1-29c
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Membership","name":"new-library-membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"full_name":"Robo Two","library_member":"robo2@company.com","from_date":"2023-10-05"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-10-04 13:32:55,526 ERROR frappe New Exception collected with id: 2023-10-04 13:32:55.493745-127.0.0.1-310
+Site: library.test
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Library Membership","name":"new-library-membership-1","__islocal":1,"__unsaved":1,"owner":"Administrator","paid":0,"full_name":"Robo Two","library_member":"robo2@company.com","from_date":"2023-10-05"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-10-04 18:04:54,470 ERROR frappe New Exception collected with id: 2023-10-04 18:04:54.441915-127.0.0.1-18d
+Site: library.test
+Form Dict: {'docs': '{"name":"The Alchemist","owner":"Administrator","creation":"2023-10-04 17:34:04.064805","modified":"2023-10-04 17:34:48.554170","modified_by":"Administrator","docstatus":0,"idx":0,"image":"/private/files/content.jpeg","author":"Paulo Coelho","status":"Available","doctype":"Article","reviews":[],"__last_sync_on":"2023-10-04T12:34:51.668Z"}', 'method': 'set_isbn', 'cmd': 'run_doc_method'}
+2023-10-04 18:16:09,683 ERROR frappe New Exception collected with id: 2023-10-04 18:16:09.654592-127.0.0.1-2e2
+Site: library.test
+Form Dict: {'cmd': 'library_management.library_management.doctype.article.article.get_isbn'}
+2023-10-04 18:18:04,832 ERROR frappe New Exception collected with id: 2023-10-04 18:18:04.803626-127.0.0.1-6d4
+Site: library.test
+Form Dict: {'cmd': 'library_management.library_management.doctype.article.article.get_isbn'}
+2023-10-04 19:38:46,914 ERROR frappe New Exception collected with id: 2023-10-04 19:38:46.865025-127.0.0.1-dda
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:39:12,135 ERROR frappe New Exception collected with id: 2023-10-04 19:39:12.132975-127.0.0.1-b81
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:40:03,938 ERROR frappe New Exception collected with id: 2023-10-04 19:40:03.935611-127.0.0.1-80e
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:41:16,966 ERROR frappe New Exception collected with id: 2023-10-04 19:41:16.963350-127.0.0.1-751
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:48:01,347 ERROR frappe New Exception collected with id: 2023-10-04 19:48:01.344718-127.0.0.1-d58
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:48:38,997 ERROR frappe New Exception collected with id: 2023-10-04 19:48:38.993843-127.0.0.1-d8a
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:48:41,896 ERROR frappe New Exception collected with id: 2023-10-04 19:48:41.894082-127.0.0.1-7f1
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:54:12,668 ERROR frappe New Exception collected with id: 2023-10-04 19:54:12.665676-127.0.0.1-85b
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:58:37,007 ERROR frappe New Exception collected with id: 2023-10-04 19:58:37.004550-127.0.0.1-eea
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:58:51,407 ERROR frappe New Exception collected with id: 2023-10-04 19:58:51.405196-127.0.0.1-b78
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2023-10-04 19:59:35,750 ERROR frappe New Exception collected with id: 2023-10-04 19:59:35.748077-127.0.0.1-14d
+Site: library.test
+Form Dict: {'report_name': 'Query Report on Library Transaction', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}

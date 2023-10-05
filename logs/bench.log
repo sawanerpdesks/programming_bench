@@ -115,3 +115,95 @@
 2023-09-26 13:43:54,468 INFO /usr/local/bin/bench schedule
 2023-09-26 13:43:54,469 INFO /usr/local/bin/bench serve --port 8001
 2023-09-26 13:43:54,469 INFO /usr/local/bin/bench worker
+2023-09-27 10:54:17,391 INFO /usr/local/bin/bench start
+2023-09-27 10:54:17,574 INFO /usr/local/bin/bench schedule
+2023-09-27 10:54:17,576 INFO /usr/local/bin/bench serve --port 8001
+2023-09-27 10:54:17,578 INFO /usr/local/bin/bench worker
+2023-09-27 10:54:17,578 INFO /usr/local/bin/bench watch
+2023-09-27 12:00:01,125 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-27 18:00:02,051 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-28 12:00:01,080 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-28 12:05:47,060 INFO /usr/local/bin/bench start
+2023-09-28 12:05:47,271 INFO /usr/local/bin/bench serve --port 8001
+2023-09-28 12:05:47,271 INFO /usr/local/bin/bench watch
+2023-09-28 12:05:47,273 INFO /usr/local/bin/bench schedule
+2023-09-28 12:05:47,274 INFO /usr/local/bin/bench worker
+2023-09-28 18:00:01,976 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-29 11:13:51,861 INFO /usr/local/bin/bench start
+2023-09-29 11:13:52,036 INFO /usr/local/bin/bench schedule
+2023-09-29 11:13:52,039 INFO /usr/local/bin/bench watch
+2023-09-29 11:13:52,041 INFO /usr/local/bin/bench serve --port 8001
+2023-09-29 11:13:52,041 INFO /usr/local/bin/bench worker
+2023-09-29 12:00:01,593 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-29 18:00:01,374 INFO /usr/local/bin/bench --verbose --site all backup
+2023-09-30 12:00:02,044 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-03 12:00:01,335 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-03 15:02:01,038 INFO /usr/local/bin/bench start
+2023-10-03 15:02:01,195 INFO /usr/local/bin/bench worker
+2023-10-03 15:02:01,195 INFO /usr/local/bin/bench serve --port 8001
+2023-10-03 15:02:01,198 INFO /usr/local/bin/bench schedule
+2023-10-03 15:02:01,201 INFO /usr/local/bin/bench watch
+2023-10-03 15:02:31,902 INFO /usr/local/bin/bench new-site library.test
+2023-10-03 15:11:43,266 INFO /usr/local/bin/bench --site library.test add-to-hosts
+2023-10-03 15:11:54,722 INFO /usr/local/bin/bench start
+2023-10-03 15:11:54,881 INFO /usr/local/bin/bench watch
+2023-10-03 15:11:54,882 INFO /usr/local/bin/bench schedule
+2023-10-03 15:11:54,883 INFO /usr/local/bin/bench serve --port 8001
+2023-10-03 15:11:54,886 INFO /usr/local/bin/bench worker
+2023-10-03 15:24:40,065 INFO /usr/local/bin/bench --site library.test backup
+2023-10-03 15:31:22,082 INFO /usr/local/bin/bench new-app library_management
+2023-10-03 15:31:22,085 LOG creating new app library_management
+2023-10-03 15:32:04,630 LOG Installing library_management
+2023-10-03 15:32:04,630 DEBUG cd /home/office_user/programming_bench && /home/office_user/programming_bench/env/bin/python -m pip install --quiet --upgrade -e /home/office_user/programming_bench/apps/library_management 
+2023-10-03 15:32:05,956 DEBUG bench build --app library_management
+2023-10-03 15:32:06,021 INFO /usr/local/bin/bench build --app library_management
+2023-10-03 15:32:11,787 DEBUG cd /home/office_user/programming_bench && sudo supervisorctl restart frappe:
+2023-10-03 15:32:11,924 WARNING cd /home/office_user/programming_bench && sudo supervisorctl restart frappe: executed with exit code 2
+2023-10-03 15:32:11,924 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-10-03 15:32:12,175 INFO A newer version of bench is available: 5.17.1 → 5.17.2
+2023-10-03 15:37:38,849 INFO /usr/local/bin/bench --site library.test list-apps
+2023-10-03 15:37:54,374 INFO /usr/local/bin/bench --site library.test install-app library_management
+2023-10-03 15:38:07,410 INFO /usr/local/bin/bench --site library.test list-apps
+2023-10-03 15:38:21,659 INFO /usr/local/bin/bench start
+2023-10-03 15:38:21,820 INFO /usr/local/bin/bench serve --port 8001
+2023-10-03 15:38:21,820 INFO /usr/local/bin/bench watch
+2023-10-03 15:38:21,821 INFO /usr/local/bin/bench schedule
+2023-10-03 15:38:21,821 INFO /usr/local/bin/bench worker
+2023-10-03 16:06:11,709 INFO /usr/local/bin/bench --site library.test mariadb
+2023-10-03 16:20:58,056 INFO /usr/local/bin/bench --site library.test console
+2023-10-03 16:28:11,233 INFO /usr/local/bin/bench --site library.test console
+2023-10-03 19:56:40,020 INFO /usr/local/bin/bench --site library.test mariadb
+2023-10-04 11:07:42,177 INFO /usr/local/bin/bench start
+2023-10-04 11:07:42,344 INFO /usr/local/bin/bench watch
+2023-10-04 11:07:42,345 INFO /usr/local/bin/bench serve --port 8001
+2023-10-04 11:07:42,346 INFO /usr/local/bin/bench schedule
+2023-10-04 11:07:42,347 INFO /usr/local/bin/bench worker
+2023-10-04 12:00:01,501 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-04 15:52:19,969 INFO /usr/local/bin/bench new-site library2.test
+2023-10-04 15:54:42,152 INFO /usr/local/bin/bench --site library2.test install-app library_management
+2023-10-04 16:01:01,440 INFO /usr/local/bin/bench --site library.test mariadb
+2023-10-04 16:02:55,184 INFO /usr/local/bin/bench --site library2.test migrate
+2023-10-04 16:03:29,719 INFO /usr/local/bin/bench --site library2.test mariadb
+2023-10-04 16:21:00,116 INFO /usr/local/bin/bench --site library2.test migrate
+2023-10-04 16:30:23,608 INFO /usr/local/bin/bench --site library2.test migrate
+2023-10-04 18:00:01,912 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-04 18:50:32,493 INFO /usr/local/bin/bench start
+2023-10-04 18:50:32,661 INFO /usr/local/bin/bench serve --port 8001
+2023-10-04 18:50:32,662 INFO /usr/local/bin/bench worker
+2023-10-04 18:50:32,662 INFO /usr/local/bin/bench schedule
+2023-10-04 18:50:32,663 INFO /usr/local/bin/bench watch
+2023-10-04 19:03:01,411 INFO /usr/local/bin/bench build --app library_management
+2023-10-04 20:25:05,827 INFO /usr/local/bin/bench --site library.test run-tests --module library_management.tests.test_library_system
+2023-10-04 20:25:26,914 INFO /usr/local/bin/bench --site library.test set-config allow_tests true
+2023-10-04 20:25:29,398 INFO /usr/local/bin/bench --site library.test run-tests --module library_management.tests.test_library_system
+2023-10-04 20:26:58,525 INFO /usr/local/bin/bench --site library.test run-tests --module library_management/tests/test_library_system.py
+2023-10-04 20:27:12,509 INFO /usr/local/bin/bench --site library.test run-tests --module library_management.tests.test_library_system.py
+2023-10-04 20:29:04,807 INFO /usr/local/bin/bench --site library.test run-tests --module library_management.tests.test_library_system.py
+2023-10-04 20:30:29,099 INFO /usr/local/bin/bench --site library.test run-tests --module library_management.tests.test_library_system.py
+2023-10-05 10:57:18,817 INFO /usr/local/bin/bench start
+2023-10-05 10:57:19,038 INFO /usr/local/bin/bench serve --port 8001
+2023-10-05 10:57:19,038 INFO /usr/local/bin/bench worker
+2023-10-05 10:57:19,041 INFO /usr/local/bin/bench watch
+2023-10-05 10:57:19,041 INFO /usr/local/bin/bench schedule
+2023-10-05 12:00:01,300 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-05 13:02:37,436 INFO /usr/local/bin/bench pip install jedi==0.17.2 pygls==0.10.2
